@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2958676590</fileChecksum>
+  <configuration>
+    <name>CoordinatorEB</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>CoordinatorEB-Pro</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\ZMain\TI2530DB\chipcon_cstartup.s51</file>
+      <file>$PROJ_DIR$\..\..\..\ZMain\TI2530DB\OnBoard.c</file>
+      <file>$PROJ_DIR$\..\..\..\ZMain\TI2530DB\ZMain.c</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\chipcon_cstartup.r51</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\OSAL_SampleApp.pbi</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\SampleAppHw.r51</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\SampleApp.pbi</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\OnBoard.r51</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\ZMain.r51</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\SampleAppHw.pbi</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\OnBoard.pbi</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\ZMain.pbi</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\DHT11.pbi</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\SampleApp.pbd</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Exe\SampleApp.d51</file>
+      <file>$PROJ_DIR$\..\Source\DHT11.h</file>
+      <file>$PROJ_DIR$\..\Source\OSAL_SampleApp.c</file>
+      <file>$PROJ_DIR$\..\Source\DHT11.c</file>
+      <file>$PROJ_DIR$\..\Source\SampleApp.h</file>
+      <file>$PROJ_DIR$\..\Source\SampleApp.c</file>
+      <file>$PROJ_DIR$\..\Source\SampleAppHw.h</file>
+      <file>$PROJ_DIR$\Source\SampleAppHw.c</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\DHT11.r51</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\OSAL_SampleApp.r51</file>
+      <file>$PROJ_DIR$\CoordinatorEB-Pro\Obj\SampleApp.r51</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\ZMain\TI2530DB\chipcon_cstartup.s51</name>
+      <outputs>
+        <tool>
+          <name>A8051</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\ZMain\TI2530DB\OnBoard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\ZMain\TI2530DB\ZMain.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\OSAL_SampleApp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\DHT11.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\SampleApp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 20 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\SampleAppHw.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>DemoEB</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>DemoEB-Pro</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>EndDeviceEB</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>EndDeviceEB-Pro</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>RouterEB</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>RouterEB-Pro</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
