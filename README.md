@@ -22,5 +22,5 @@
 
 ![image](https://github.com/Amstriver/Major_intership/blob/master/imgs/work_3.png)
 
-![image](https://github.com/Amstriver/Major_intership/blob/master/imgs/work_4.png)
+![image](https://github.com/Amstriver/Major_intership/blob/master/imgs/work_4.jpg)
 
